@@ -34,7 +34,7 @@ The Greenbone Security Assistant shows an active vulnerability scan nearing comp
   <img src="Screenshot 2025-05-01 120923.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
-Greenbone Security Assistant provides an overview of vulnerabilities identified during the <br/> scan, categorizing them by severity, detailing their specific characteristics such as  <br/> detection dates, severity scores, and affected hosts, while also offering filtering and sorting options based on scan quality. <br/><br/>
+Greenbone Security Assistant provides an overview of vulnerabilities identified during the <br/> scan, categorizing them by severity, detailing their specific characteristics such as  <br/> detection dates, severity scores, and affected hosts, while also offering filtering and <br/> sorting options based on scan quality. <br/><br/>
   <img src="Screenshot 2025-05-01 120930.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
 <p align="left">
@@ -61,6 +61,5 @@ This list displays vulnerabilities detected by Greenbone Security Assistant, inc
 
 <h2>Write Up</h2>
 
-<p><u> Recommendations </u></p>
 <p>To comprehensively address and eliminate identified vulnerabilities, a multi-faceted security strategy must be established. A foundational layer involves the regular application of security patches, including monthly cycles for operating systems and applications. As well, network segmentation should be implemented to isolate critical systems, thereby minimizing the potential impact of a breach. Enforcing the principle of least privilege for user accounts, demonstrated through frequent reviews and adjustments of user roles and permissions, effectively reduces the attack surface and mitigates the risk of unauthorized access. The integration of multi-factor authentication, especially within login processes for sensitive applications, adds a layer of security. Continuous monitoring facilitated by intrusion detection systems and log analysis tools allows for real-time threat detection and swift responses to security incidents. The development and regular updating of an incident response plan and routine security awareness training for employees enhance the organization's agility in responding to security events and diminish the risk of human error. Augmenting these measures, implementing encryption for sensitive data in transit and at rest, conducting regular penetration testing and security audits, maintaining comprehensive documentation of security measures, and yearly reviews and updates to security policies contribute significantly to a resilient security posture. This holistic approach, tailored to the organization's needs, establishes a robust framework for mitigating vulnerabilities and advancing overall cybersecurity.
 </p>
