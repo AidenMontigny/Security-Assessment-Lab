@@ -16,12 +16,47 @@ This project demonstrates the practical execution of a network security assessme
 - <b> Kali Linux Virtual Machine </b>
 
 <h2>Project walk-through:</h2>
+
 <p align="left">
-TEXT. <br/><br/>
-  <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The process began with launching Nmap on the virtual machine to conduct a network scan, <br/> identifying active hosts and their open ports. <br/><br/>
+  <img src="Screenshot 2025-05-01 120856.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br/>
-
-
+<p align="left">
+After identifying the hosts and their corresponding IP addresses, a more comprehensive scan <br/>  was conducted to fingerprint the operating systems and enumerate active services. <br/><br/>
+  <img src="Screenshot 2025-05-01 120903.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+The scan results provided insight into the network topology and exposed services, enabling <br/> targeted vulnerability assessments in subsequent steps. <br/><br/>
+  <img src="Screenshot 2025-05-01 120912.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+The Greenbone Security Assistant shows an active vulnerability scan nearing completion. <br/><br/>
+  <img src="Screenshot 2025-05-01 120923.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Greenbone Security Assistant provides an overview of vulnerabilities identified during the <br/> scan, categorizing them by severity, detailing their specific characteristics such as  <br/> detection dates, severity scores, and affected hosts, while also offering filtering and sorting options based on scan quality. <br/><br/>
+  <img src="Screenshot 2025-05-01 120930.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Greenbone Security Assistant displays an overview of detected CVEs, including severity <br/> classifications, creation trends, CVSS scores, and detailed vulnerability information. <br/><br/>
+  <img src="Screenshot 2025-05-01 120937.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+Repeat steps 1-7 for the remaining two targets, starting with identifying their IP <br/>  addresses, which in this case are 192.168.0.1 and 192.168.0.2. <br/><br/>
+  <img src="Screenshot 2025-05-01 120949.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+The image displays a table titled "Targets 3 of 3" with three targets and their respective <br/>  IP addresses. <br/><br/>
+  <img src="Screenshot 2025-05-01 120957.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+The dashboard provides an overview of 183,963 CVEs, categorized by severity. It includes <br/>  visualizations of CVE trends over time and a table listing specific vulnerabilities with  <br/> descriptions, published dates, and CVSS base scores. <br/><br/>
+  <img src="Screenshot 2025-05-01 121005.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
+<p align="left">
+This list displays vulnerabilities detected by Greenbone Security Assistant, including <br/>  issues like "Microsoft SMB Signing Disabled" and "ICMP Timestamp Detection."  <br/><br/>
+  <img src="Screenshot 2025-05-01 121018.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br/>
 
 
 <h2>Write Up</h2>
